@@ -32,9 +32,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hidden md:block md:ml-10 md:pr-4">
-                                <a href="#" class="ml-8 font-medium text-red-600 hover:text-red-900 focus:outline-none focus:text-red-700 transition duration-150 ease-in-out">Log in</a>
-                            </div>
                         </nav>
                     </div>
 
@@ -48,17 +45,6 @@
                         From: "opacity-100 scale-100"
                         To: "opacity-0 scale-95"
                     -->
-                    <div class="hidden top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-                        <div class="rounded-lg shadow-md">
-                            <div class="rounded-lg bg-white shadow-xs overflow-hidden">
-                                <div>
-                                    <a href="#" class="block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700 transition duration-150 ease-in-out">
-                                        Log in
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div class="sm:text-center lg:text-left">
@@ -72,13 +58,13 @@
                             </p>
                             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div class="rounded-md shadow">
-                                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                                        Get started
+                                    <a href="{{route('register')}}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                                        Join us
                                     </a>
                                 </div>
                                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                                        Live demo
+                                    <a href="{{route('login')}}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                                        Log in
                                     </a>
                                 </div>
                             </div>

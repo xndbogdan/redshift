@@ -1,11 +1,15 @@
 require('./bootstrap');
+
+//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+
+// const app = new Vue({
+//     el: '#app',
+// });
 import 'alpinejs'
 
 function checkDarkMode() {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        return true;
-    }
-    return false;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 }
 
 if (checkDarkMode()) {
