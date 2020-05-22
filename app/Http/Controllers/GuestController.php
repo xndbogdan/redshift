@@ -25,4 +25,9 @@ class GuestController extends Controller
     {
         return view('welcome');
     }
+
+    public function spandex(){
+        $users = User::search('Alb~')->get();
+        dd($users);
+    }
 }

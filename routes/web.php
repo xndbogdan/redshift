@@ -17,4 +17,6 @@ Route::get('/', 'GuestController@index')->name('welcome');
 
 Auth::routes();
 
+Route::get('/spandex', 'GuestController@spandex')->name('spandex');
+
 Route::get('/home', 'HomeController@index')->name('home');
